@@ -1,7 +1,7 @@
 {
     "name": "songphi/javaobjs",
     "description": "provide some basic classes equivalent to Java classes, such as String, StringBuffer, StringTokenizer, Vector",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Thao Le",
