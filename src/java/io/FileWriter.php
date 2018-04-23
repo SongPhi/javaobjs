@@ -4,19 +4,19 @@ namespace java\io;
 class FileWriter extends Writer {
 	protected $file;
 
-	public function __construct(java\io\File $file) {
-		$this->file = $file->getHandle();
+	public function __construct(\java\io\File $file) {
+		$this->file = $file;
 	}
 
 	public function write($string) {
-		fputs($this->file, $string);
+		fputs($this->file->getHandle(), $string);
 	}
 
 	public function flush() {
-		fflush($this->file);
+		fflush($this->file->getHandle());
 	}
 
 	public function close() {
-		fclose($this->file);
+		$this->file->close();
 	}
 }
