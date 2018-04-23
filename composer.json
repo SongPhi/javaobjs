@@ -1,0 +1,20 @@
+{
+    "name": "songphi/javaobjs",
+    "description": "provide some basic classes equivalent to Java classes, such as String, StringBuffer, StringTokenizer, Vector",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Thao Le",
+            "email": "thaolt@songphi.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    }
+}
